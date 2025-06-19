@@ -67,26 +67,21 @@ SECRET=session_secret_key
 npm start
 Visit: http://localhost:8080
 
-📂 Folder Structure
+
+## 📂 Folder Structure
 
 Wanderlust/
 
 ├── models/           # Mongoose schemas
-
 ├── routes/           # Express route files
-
 ├── views/            # EJS templates
-
 ├── public/           # Static assets (CSS, JS, Images)
-
 ├── controllers/      # Logic for routes
-
 ├── utils/            # Error handling and middleware
-
 ├── app.js            # Main server file
 
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
