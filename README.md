@@ -47,9 +47,9 @@ cd Wanderlust
 npm install
 
 ⚙️ Environment Setup
+
 Create a .env file in the root directory with the following variables:
-Copy
-Edit
+
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_KEY=your_api_key
 CLOUDINARY_SECRET=your_api_secret
@@ -58,10 +58,12 @@ DB_URL=your_mongodb_connection_string
 SECRET=session_secret_key
 
 ▶️ Run the Server
+
 npm start
 Visit: http://localhost:8080
 
 📂 Folder Structure
+
 Wanderlust/
 ├── models/           # Mongoose schemas
 ├── routes/           # Express route files
