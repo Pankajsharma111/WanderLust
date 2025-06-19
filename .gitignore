@@ -1,0 +1,4 @@
+.env
+node_modules/
+ps
+# **/.DS_Store (for mac)
