@@ -47,7 +47,7 @@
 ### Installation
 
 ```bash
-git clone [https://github.com/your-username/Wanderlust.git](https://github.com/Pankajsharma111/WanderLust.git)
+git clone https://github.com/your-username/Wanderlust.git
 cd Wanderlust
 npm install
 ```
