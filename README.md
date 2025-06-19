@@ -8,20 +8,20 @@
 
 ## ✨ Features
 
-* 1. 🔐 Login and Sign Up functionality using Passport.js  
-* 2. 🔒 Authentication and Authorization to secure user access  
-* 3. 🧠 Implemented MVC Architecture (Model, View, Controller)  
-* 4. ✏️ CRUD operations on travel listings (create, read, update, delete)  
-* 5. 💬 Review system with the ability to add and delete reviews  
-* 6. 📸 Image uploads and storage using Cloudinary  
-* 7. ❗ Centralized error handling using custom middleware  
-* 8. ✅ Server-side schema validation using Joi  
-* 9. 🔑 Password security implemented using PBKDF2 hashing algorithm  
-* 10. 🗺️ Interactive maps integrated with Leaflet API  
-* 11. 🛡️ Security enhancements using Helmet, Mongo Sanitize, etc.  
-* 12. 📱 Responsive UI built with Bootstrap 5 and EJS templating  
-* 13. 🔄 Session management with secure cookie configuration  
-* 14. 🗂️ Well-structured and maintainable codebase with comments  
+*  1. 🔐 Login and Sign Up functionality using Passport.js  
+*  2. 🔒 Authentication and Authorization to secure user access  
+*  3. 🧠 Implemented MVC Architecture (Model, View, Controller)  
+*  4. ✏️ CRUD operations on travel listings (create, read, update, delete)  
+*  5. 💬 Review system with the ability to add and delete reviews  
+*  6. 📸 Image uploads and storage using Cloudinary  
+*  7. ❗ Centralized error handling using custom middleware  
+*  8. ✅ Server-side schema validation using Joi  
+*  9. 🔑 Password security implemented using PBKDF2 hashing algorithm  
+*  10. 🗺️ Interactive maps integrated with Leaflet API  
+*  11. 🛡️ Security enhancements using Helmet, Mongo Sanitize, etc.  
+*  12. 📱 Responsive UI built with Bootstrap 5 and EJS templating  
+*  13. 🔄 Session management with secure cookie configuration  
+*  14. 🗂️ Well-structured and maintainable codebase with comments  
 
 ---
 
@@ -71,7 +71,7 @@ SECRET=session_secret_key
 npm start
 ```
 
-Visit `http://localhost:8080` in your browser.
+Visit `http://localhost:8080/listings` in your browser.
 
 ---
 
