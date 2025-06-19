@@ -51,10 +51,15 @@ npm install
 Create a .env file in the root directory with the following variables:
 
 CLOUDINARY_CLOUD_NAME=your_cloud_name
+
 CLOUDINARY_KEY=your_api_key
+
 CLOUDINARY_SECRET=your_api_secret
-MAPBOX_TOKEN=your_mapbox_token
+
+MAPBOX_TOKEN=your_leaflet_token
+
 DB_URL=your_mongodb_connection_string
+
 SECRET=session_secret_key
 
 ▶️ Run the Server
@@ -65,19 +70,33 @@ Visit: http://localhost:8080
 📂 Folder Structure
 
 Wanderlust/
+
 ├── models/           # Mongoose schemas
+
 ├── routes/           # Express route files
+
 ├── views/            # EJS templates
+
 ├── public/           # Static assets (CSS, JS, Images)
+
 ├── controllers/      # Logic for routes
+
 ├── utils/            # Error handling and middleware
+
 ├── app.js            # Main server file
 
+
 🤝 Contributing
+
 Contributions are welcome!
 
-Fork the repository
-Create a new branch: git checkout -b feature/YourFeature
-Commit your changes: git commit -m 'Add your feature'
-Push to the branch: git push origin feature/YourFeature
-Open a Pull Request
+1. Fork the repository
+
+2. Create a new branch: git checkout -b feature/YourFeature
+
+3. Commit your changes: git commit -m 'Add your feature'
+
+4. Push to the branch: git push origin feature/YourFeature
+
+5. Open a Pull Request
+
