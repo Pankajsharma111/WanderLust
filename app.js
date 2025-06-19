@@ -109,12 +109,16 @@ app.use("/listings/:id/reviews", reviewRouter);
 
 app.use("/", userRouter);
 
-app.all("/{*any}", (req, res, next) => {
-  // app.all("*", (req, res, next) => {
-  // // app.get("/*name", (req, res) => {
-  next(new ExpressError(404, "Page not found"));
-  res.render("error.ejs");
-  console.log("Request to invalid path.");
+// app.all("/{*any}", (req, res, next) => {
+//   // app.all("*", (req, res, next) => {
+//   // // app.get("/*name", (req, res) => {
+//   next(new ExpressError(404, "Page not found"));
+//   res.render("error.ejs");
+//   console.log("Request to invalid path.");
+// });
+
+app.use((req, res, next) => {
+    next(new ExpressError(404, "Page Not Found!"));
 });
 
 //Defining middleware for error handling.
